@@ -1,0 +1,3 @@
+DROP DATABASE `burgers`;
+DROP TABLE IF EXISTS burgers;
+CREATE DATABASE IF NOT EXISTS `burgers_db`;
