@@ -1,6 +1,6 @@
 var Sequelize = require("sequelize");
 
-var sequelize = new Sequelize("burgers_db", "root", "@ndroid4LIFE", {
+var sequelize = new Sequelize("burgers_db", "root", "", {
   host: "localhost",
   dialect: "mysql",
   pool: {
